@@ -3,9 +3,15 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "ipfs": "^0.29.3",
+    "ipfs-api": "^22.1.1",
+    "mini.css": "^3.0.0",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
-    "react-scripts-parcel": "0.0.24"
+    "react-router": "^4.3.1",
+    "react-router-dom": "^4.3.1",
+    "react-scripts-parcel": "0.0.24",
+    "webtorrent": "^0.100.0"
   },
   "scripts": {
     "start": "react-scripts-parcel start",

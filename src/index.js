@@ -4,6 +4,12 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
+
+// OrbitDB uses Pubsub which is an experimental feature
+// and need to be turned on manually. 
+// Note that these options need to be passed to IPFS in 
+// all examples in this document even if not specfied so.
+
 ReactDOM.render(<App />, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
